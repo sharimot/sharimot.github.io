@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=EB+Garamond:ital@0;1&display=swap');
+
+@page {
+    margin: 30mm;
+}
+
+* {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+body {
+    color: darkslategray;
+    margin: 60px max(24px, 50vw - 300px) 120px;
+    overflow-wrap: break-word;
+}
+
+code {
+    background: whitesmoke;
+    border-radius: 6px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 14px;
+    letter-spacing: -1px;
+    padding: 3px 6px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 60px 0;
+    text-align: center;
+}
+
+h2 {
+    border-top: 0.5px solid gainsboro;
+    font-size: 20px;
+    margin: 60px 0;
+    padding-top: 60px;
+    text-align: center;
+}
+
+li {
+    margin: 16px 0;
+}
+
+ol {
+    padding-left: 24px;
+}
+
+pre {
+    background: whitesmoke;
+    border-radius: 6px;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 14px;
+    letter-spacing: -1px;
+    line-height: 28px;
+    overflow: scroll;
+    padding: 6px 12px;
+}
+
+ul {
+    list-style-type: '·   ';
+    padding-left: 24px;
+}
+
+.middle {
+    margin: 60px 0;
+    text-align: center;
+}

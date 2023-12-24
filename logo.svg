@@ -1,0 +1,11 @@
+<svg viewBox="-1 -1 2 2" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <polygon id="polygon" points="-0.5,-0.866 0.5,-0.866 0.5,0.288 0.4,0.288 0.4,-0.766 -0.5,-0.766" />
+    </defs>
+    <use href="#polygon" transform="rotate(0)" />
+    <use href="#polygon" transform="rotate(60)" />
+    <use href="#polygon" transform="rotate(120)" />
+    <use href="#polygon" transform="rotate(180)" />
+    <use href="#polygon" transform="rotate(240)" />
+    <use href="#polygon" transform="rotate(300)" />
+</svg>
